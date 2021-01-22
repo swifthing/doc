@@ -9,6 +9,8 @@
 <div class="highlight highlight-source-shell"><pre>/bin/bash -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
 <p>Check if Homebrew is correctly installed</p>
 <div class="highlight highlight-source-shell"><pre>brew doctor</pre></div>
+<p>Check if Homebrew is correctly installed</p>
+<div class="highlight highlight-source-shell"><pre>brew doctor</pre></div>
 <p>Install usefull packages</p>
 <div class="highlight highlight-source-shell"><pre>brew install redis sqlite wget </pre></div>
 <p>Start redis service</p>
