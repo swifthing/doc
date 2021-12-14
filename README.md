@@ -45,7 +45,15 @@
 <p>Edit your <code>.zshrc</code>, find the key <code>ZSH_THEME</code>. By default it is "robbyrussell", change with :</p>
 <pre><code>ZSH_THEME="ys"
 </code></pre>
+          To disable strange warning, 
+          <pre><code>nano ~/.zshrc</code></pre>
+          Set this line at top of file:
+          <pre><code>ZSH_DISABLE_COMPFIX=true</code></pre>
+          Save and relaunch terminal
+          
 <h2><a id="user-content-git-and-github" class="anchor" aria-hidden="true" href="https://github.com/cegelem-sas/docs/blob/master/macOS/setup.md#git-and-github"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Git and Github</h2>
+          
+        
 <p>Install git</p>
 <div class="highlight highlight-source-shell"><pre>brew install git</pre></div>
 <p>Define your Git user (should be the same name and email you use for GitHub)</p>
