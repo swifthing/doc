@@ -25,7 +25,7 @@
 <p>Install ffi</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install ffi</pre></div>
 
-          <h2>Install zsh</h2>
+          # <h2>Install zsh</h2>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 brew install zsh</pre></div>
 <p>Install Oh My Zsh, type "Y" to confirm to change the defaukt shell to zsh</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
