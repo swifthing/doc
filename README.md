@@ -6,7 +6,7 @@
 <div class="highlight highlight-source-shell"><pre>xcode-select --install</pre></div>
 <h2><a id="user-content-homebrew" class="anchor" aria-hidden="true" href="https://github.com/cegelem-sas/docs/blob/master/macOS/setup.md#homebrew"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Homebrew</h2>
 <p>Install Homebrew</p>
-<div class="highlight highlight-source-shell"><pre>/bin/bash -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-shell"><pre>arch -x86_64 /bin/bash -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
 <p>Check if Homebrew is correctly installed</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 brew doctor</pre></div>
 <p>Check if Homebrew is correctly installed</p>
@@ -14,7 +14,7 @@
 <p>Install usefull packages</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 brew install redis sqlite wget </pre></div>
 <p>Start redis service</p>
-<pre><code>brew services start redis
+<pre><code>arch -x86_64 brew services start redis
 </code></pre>
 <p>To prevent "permission denied" with brew</p>
 <div class="highlight highlight-source-shell"><pre>sudo chown -R "$USER":admin /usr/local</pre></div>   
@@ -26,7 +26,7 @@
 <p>Install zsh</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 brew install zsh</pre></div>
 <p>Install Oh My Zsh, type "Y" to confirm to change the defaukt shell to zsh</p>
-<div class="highlight highlight-source-shell"><pre>sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
+<div class="highlight highlight-source-shell"><pre>arch -x86_64 sh -c <span class="pl-s"><span class="pl-pds">"</span><span class="pl-s"><span class="pl-pds">$(</span>curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh<span class="pl-pds">)</span></span><span class="pl-pds">"</span></span></pre></div>
 <p>Tell the system to use programs installed by Hombrew (in /usr/local/bin) rather than the OS default if it exists.</p>
 <div class="highlight highlight-source-shell"><pre><span class="pl-c1">echo</span> <span class="pl-s"><span class="pl-pds">'</span>export PATH="/usr/local/bin:$PATH"<span class="pl-pds">'</span></span> <span class="pl-k">&gt;&gt;</span> <span class="pl-k">~</span>/.zshrc</pre></div>
 <h3><a id="user-content-packages" class="anchor" aria-hidden="true" href="https://github.com/cegelem-sas/docs/blob/master/macOS/setup.md#packages"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Packages</h3>
