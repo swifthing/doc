@@ -21,7 +21,8 @@
 </svg></a>iTerm2</h2>
 <p>Install Cocoapods</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install cocoapods -n /usr/local/bin</pre></div>
-arch -x86_64 sudo gem install ffi
+<div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install ffi</pre></div>
+
 <p>Install zsh</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 brew install zsh</pre></div>
 <p>Install Oh My Zsh, type "Y" to confirm to change the defaukt shell to zsh</p>
