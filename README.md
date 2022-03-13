@@ -19,7 +19,7 @@
 <div class="highlight highlight-source-shell"><pre>sudo chown -R "$USER":admin /usr/local</pre></div>   
 
           
-          <h2>Cocoapods</h2>      
+# <h2>Cocoapods</h2>      
 <p>Install Cocoapods</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install cocoapods -n /usr/local/bin</pre></div>
 <p>Install ffi</p>
