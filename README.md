@@ -20,9 +20,9 @@
 
           
 # <h2>Cocoapods</h2>      
-<p>Install Cocoapods</p>
+###### Install Cocoapods</p>
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install cocoapods -n /usr/local/bin</pre></div>
-<p>Install ffi</p>
+###### Install ffi
 <div class="highlight highlight-source-shell"><pre>arch -x86_64 sudo gem install ffi</pre></div>
 
 # Install zsh 
